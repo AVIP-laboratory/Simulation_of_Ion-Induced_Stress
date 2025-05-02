@@ -1,4 +1,4 @@
-# Simulation of Ion-Induced Stress in Structured Nafion Media
+# Simulation of Ion-Induced Stress
 
 This repository contains a simulation framework for analyzing the behavior of charged particles in Nafion membranes under the influence of an electric field. The model supports both *Smooth-surface* and *Embossed-surface* structures, enabling comparison of particle distributions and stress fields in different morphologies.
 
