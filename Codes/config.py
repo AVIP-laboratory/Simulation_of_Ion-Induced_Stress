@@ -2,8 +2,8 @@ import numpy as np
 from scipy.constants import e, m_e
 
 # Simulation parameters
-dt = 1e-1
-num_steps = 10
+dt = 1e-3
+num_steps = 1000
 num_particles = 100000000
 
 # Medium bounds
