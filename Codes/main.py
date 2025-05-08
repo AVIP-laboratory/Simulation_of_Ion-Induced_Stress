@@ -49,8 +49,8 @@ y_bins_flat, stress_flat = compute_stress(positions_flat, charges, surface_area_
 y_bins_enhanced, stress_enhanced = compute_stress(positions_enhanced, charges, surface_area_enhanced)
 
 y_bins = np.linspace(y_min, y_max, 300)
-stress_y_flat, = compute_stress_by_repulsion_chunked(positions_flat, particle_radius, surface_area_flat, x_bins, y_bins)
-stress_y_enh, = compute_stress_by_repulsion_chunked(positions_enhanced, particle_radius, surface_area_enhanced, x_bins, y_bins)
+stress_y_flat = compute_stress_by_repulsion_chunked(positions_flat, particle_radius, surface_area_flat, x_bins, y_bins)
+stress_y_enh = compute_stress_by_repulsion_chunked(positions_enhanced, particle_radius, surface_area_enhanced, x_bins, y_bins)
 print(f"✅ Stress Calculation Time: {time.time() - stress_start:.2f} seconds")
 
 # Plot stress
